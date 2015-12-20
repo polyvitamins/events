@@ -1,0 +1,22 @@
+{
+  "name": "polyevents",
+  "version": "1.0.0",
+  "description": "Events class",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/polyvitamins/polyevents.git"
+  },
+  "keywords": [
+    "events"
+  ],
+  "author": "Vladimir Kalmykov <vladimirmorulus@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/polyvitamins/polyevents/issues"
+  },
+  "homepage": "https://github.com/polyvitamins/polyevents#readme"
+}
