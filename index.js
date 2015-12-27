@@ -207,7 +207,7 @@ Events.prototype = {
         if (!once) {
 
             this.eventListners[e].push({
-                callback: this.$inject(callback),
+                callback: callback,
                 once: once||false
             });
 
