@@ -1,8 +1,30 @@
 var Events = function() {
-	this.eventListners = {};
-    this.bubblingListners = {};
-    this.surfacingListners = {};
-	this.eventTracks = {};
+    Object.defineProperties(this, {
+        eventListners: {
+            enumerable: false,
+            writable: false,
+            configurable: false,
+            value: {}
+        },
+        bubblingListners: {
+            enumerable: false,
+            writable: false,
+            configurable: false,
+            value: {}
+        },
+        surfacingListners: {
+            enumerable: false,
+            writable: false,
+            configurable: false,
+            value: {}
+        },
+        eventTracks: {
+            enumerable: false,
+            writable: false,
+            configurable: false,
+            value: {}
+        }
+    });
 }
 
 /*
